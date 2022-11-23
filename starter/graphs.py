@@ -39,7 +39,7 @@ try:
     product_revenue=get_revenue()
 #### print the product_revenue variable to look at the structure of the variable to help you write the next function
     #----------------------PRINT--------------#  
-    #print(product_revenue)  #successfully fetched a list
+    # print(product_revenue)  #successfully fetched a list
     
 #### write a function which loops through the product_revenue variable and creates two lists - one with product categories and one with total revenue values
     def generate_lists (input):
@@ -61,7 +61,7 @@ try:
         plt.title("Product Revenue by Category")
         plt.bar(labels,data)
         return figure
-    graph = create_bar_chart(input)
+    graph = create_bar_chart()
     
     plt.show()
 
